@@ -1,0 +1,311 @@
+h2{
+    color: var(--Black, #010D09);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line : none;
+    margin:0px;
+    padding:0px;
+}
+h3{ 
+    color: var(--Black, #010D09);
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h4{
+    color: var(--White, #FDFFFD);
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h5{
+    margin: 0px;
+    align-self: stretch;
+    color: #000;
+    text-align: justify;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p{
+    width: 16px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    /* small text */
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin: 0px;
+
+}
+.Doc{
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    background-color:#FDFFFD;
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    display: flex;
+    height: 84px;
+    padding: 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: rgb(253, 255, 253);
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 1px 4px);
+}
+.searchsection{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.searchbox{
+    display: flex;
+    flex-direction: row;
+}
+.searcharea{
+    margin: 0px;
+    display: flex;
+    width: 348px;
+    height: 40px;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 20px 0px 0px 20px;
+    border-top: 1px solid var(--Black, #010D09);
+    border-bottom: 1px solid var(--Black, #010D09);
+    border-left: 1px solid var(--Black, #010D09);
+}
+.searchicon{
+    margin: 0px;
+    width: 52px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: inherit;
+    border-radius: 0px 20px 20px 0px;
+    border-top: 1px solid var(--Black, #010D09);
+    border-right: 1px solid var(--Black, #010D09);
+    border-bottom: 1px solid var(--Black, #010D09);
+}
+.contents{
+    padding: 36px 80px;
+    margin: 0px;
+}
+sidebar{
+    width:198px;
+}
+.Filter{
+    display: flex;
+    width: 197px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 0px;
+}
+.filtergroup{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.filtergroup2{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid var(--Green2, #2EBE8F);
+}
+.filtername{
+    align-self: stretch;
+    color: #000;
+    text-align: justify;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+.filtercontents{
+    display: flex;
+    width: 197px;
+    padding: 8px 4px 10px 4px;
+    margin: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+.searchfilterbox{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.searchfilter{
+    display: flex;
+    height: 28px;
+    padding: 0px 16px 0px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    align-self: stretch;
+    margin: 0px;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top: 1px solid var(--Dark, #3C9075);
+    border-left: 1px solid var(--Dark, #3C9075);
+    border-bottom: 1px solid var(--Dark, #3C9075);
+}
+.searchfiltericon{
+    display: flex;
+    flex-direction: inherit;
+    padding-right: 16px;
+    height: 28px;
+    align-items: flex;
+    align-self: center;
+    margin: 0px;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: 1px solid var(--Dark, #3C9075);
+    border-right: 1px solid var(--Dark, #3C9075);
+    border-bottom: 1px solid var(--Dark, #3C9075);
+}
+.onoffarea1{
+    display: flex;
+    height: 22px;
+    align-items: center;
+    gap: 0px;
+    align-self: stretch;
+    margin: 0px;
+}
+.onoffarea2{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0px;
+}
+.onoffbox{
+    margin: 0px;
+    width: 40px;
+    height: 22px;
+    padding: 0px;
+
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+.onoffbutton{
+    display: flex;
+    flex-direction: inherit;
+    margin: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: var(--White, #FDFFFD);
+    padding:0px;
+}
+.OFF{
+    color: var(--Light-Grey, #919392);
+    text-align: justify;
+    margin: 0px;
+
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.goto{
+    display: flex;
+    flex-direction: row;
+    width: 197px;
+    padding: 8px 4px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.gotogroup{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.gotorow{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 0px;
+    color: #000;
+    width: 16px;
+    flex-shrink: 0;
+    text-align: center;
+    /* small text */
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+section{
+    display: flex;
+    width: 1060px;
+    padding-left: 0px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 42px 24px;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.ingredients{
+    display: flex;
+    padding: 0px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+.ingredientsinfo1{
+    display: flex;
+    width: 236px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ingredientsinfo2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+}
+.bookmark{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.label{
+    width: 52px;
+    height: 12px;
+    fill: var(--Label-Color-4, #FF7B7B);
+}
